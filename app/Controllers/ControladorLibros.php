@@ -62,6 +62,7 @@ class ControladorLibros extends Controller
 
         if ($_POST) {
            print_r($_POST);
+           print_r($_POST);
             $datos = [
                 'nombre' => $_POST['nombre'],
                 'cedula' => $_POST['cedula'],
