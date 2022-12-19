@@ -31,6 +31,8 @@ class ControladorLibros extends Controller
         return view('/libros/crearLibro', $datos);
     }
 
+    //add
+
     public function inicio()
     {
         /* importar header */
@@ -60,28 +62,30 @@ class ControladorLibros extends Controller
     public function crearEstudiantes()
     {
 
-        if ($_POST) {
-           print_r($_POST);
-           print_r($_POST);
-            $datos = [
-                'nombre' => $_POST['nombre'],
-                'cedula' => $_POST['cedula'],
-                'edad' => $_POST['edad'],
-                'genero' => $_POST['genero'],
-                'img' => $_POST['img']
-            ];
-            $objModeloEstudiantes = new ModeloEstudiantes();
-            $objModeloEstudiantes->crearEstudiantes($datos);
-            //insertar datos
-            return redirect()->to(base_url() . '/listarEstudiantes');
-        }
-
             /* importar header */
             $datos['cabecera'] = view('templates/encabezado.php');
             $datos['pie'] = view('templates/pie.php');
 
             return view('/libros/crearEstudiantes', $datos);
         
+    }
+
+    //add
+    public function addEstudiante(){
+        if ($_POST) {
+            print_r($_POST);
+             $datos = [
+                 'nombre' => $_POST['nombre'],
+                 'cedula' => $_POST['cedula'],
+                 'edad' => $_POST['edad'],
+                 'genero' => $_POST['genero'],
+                 'img' => $_POST['img']
+             ];
+             $objModeloEstudiantes = new ModeloEstudiantes();
+             $objModeloEstudiantes->crearEstudiantes($datos);
+             //insertar datos
+             return redirect()->to(base_url() . '/listarEstudiantes');
+         }
     }
 
     public function relaciones()

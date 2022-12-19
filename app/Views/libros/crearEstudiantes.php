@@ -10,7 +10,7 @@ echo $cabecera;
 <div class="d-inline-block border card border-primary p-4 m-5" id="contenedor">
                 <h3 class="text-center text-primary">Datos</h3>
                 <!-- Formulario -->
-                <form method="POST" action="<?= base_url('controladorLibros/crearEstudiantes') ?>" enctype="multipart/form-data">
+                <form method="POST" action="<?= base_url('ControladorLibros/addEstudiante') ?>" enctype="multipart/form-data">
                     <input type="text" name="metodo" value="1" hidden>
                     <div class="mb-3 ">
                         <label class="form-label">Nombre y Apellido</label>
@@ -53,7 +53,7 @@ echo $cabecera;
 
 
                     <div class="d-grid gap-2 col-12 mx-auto">
-                        <a href="<?= base_url('/crearEstudiantes'); ?>" class="btn  btn btn-primary mt-3 mb-2" name="enviar">
+                        <a href="<?= base_url('/listarEstudiantes'); ?>" class="btn  btn btn-primary mt-3 mb-2" name="enviar">
                             Registrar nuevo Estudiante
                         </a>
                     </div>
