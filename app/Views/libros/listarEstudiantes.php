@@ -20,7 +20,6 @@ echo $cabecera;
                         <th id="nombre">Nombre</th>
                         <th id="edad">Edad</th>
                         <th id="genero">Genero</th>
-                        <th id="img">Imagen</th>
                         <th></th>
                         <th></th>
                     </tr>
@@ -33,7 +32,6 @@ echo $cabecera;
                             <td><?php echo $estudiante['nombre'] ?></td>
                             <td><?php echo $estudiante['edad'] ?></td>
                             <td><?php echo $estudiante['genero'] ?></td>
-                            <td><img src="<?php echo base_url('img/' . $estudiante['img']) ?>" alt="" width="100px"></td>
                             <td><a href="<?php echo base_url('index.php/ControladorEstudiantes/actualizarEstudiante/' . $estudiante['isEstudiante']) ?>" class="btn btn-warning">🖊</a></td>
                             <td><a href="<?php echo base_url('index.php/ControladorEstudiantes/eliminarEstudiante/' . $estudiante['isEstudiante']) ?>" class="btn btn-danger">🗑</a></td>
                         </tr>

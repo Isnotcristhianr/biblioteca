@@ -38,7 +38,7 @@ echo $cabecera;
                 <div class="card-body">
                     <h5 class="card-title
                     ">Libros</h5>
-                    <p class="card-text">Cantidad de libros: <?php echo $libro; ?></p>
+                    <p class="card-text">Cantidad de libros: <?php echo $datos; ?></p>
                     <a href="<?php echo base_url('/listarLibros'); ?>" class="btn btn-primary">Ver libros</a>
                 </div>
             </div>

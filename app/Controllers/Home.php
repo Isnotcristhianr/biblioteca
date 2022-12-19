@@ -8,8 +8,8 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
-    public function listarLibros()
-    {
-        return view('listarLibros');
+
+    public function ListarLibros(){
+        return view('/libros/ListarLibros');
     }
 }

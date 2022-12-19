@@ -1,0 +1,441 @@
+CRITICAL - 2022-12-19 16:00:20 --> Undefined variable: libro
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: libro', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:00:55 --> Undefined variable: libro
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: libro', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:01:27 --> Undefined variable: estudiante
+in APPPATH\Views\libros\inicio.php on line 50.
+ 1 APPPATH\Views\libros\inicio.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: estudiante', 'APPPATH\\Views\\libros\\inicio.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:01:34 --> Undefined variable: libro
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: libro', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:02:11 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:02:16 --> Undefined variable: libro
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: libro', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:02:18 --> Undefined variable: libros
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: libros', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:03:29 --> Undefined variable: libro
+in APPPATH\Controllers\ControladorLibros.php on line 42.
+ 1 APPPATH\Controllers\ControladorLibros.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: libro', 'APPPATH\\Controllers\\ControladorLibros.php', 42, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:03:58 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:03:59 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:03:59 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:03:59 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:03:59 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:00 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:00 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:00 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:00 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:00 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:00 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:01 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:04:52 --> Undefined variable: datos
+in APPPATH\Views\libros\inicio.php on line 41.
+ 1 APPPATH\Views\libros\inicio.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\libros\\inicio.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/inicio', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(42): view('/libros/inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->inicio()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:50:18 --> Undefined index: img
+in APPPATH\Views\libros\listarEstudiantes.php on line 36.
+ 1 APPPATH\Views\libros\listarEstudiantes.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: img', 'APPPATH\\Views\\libros\\listarEstudiantes.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listarEstudiantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/listarEstudiantes', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(59): view('/libros/listarEstudiantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->listarEstudiantes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:50:34 --> Undefined index: img
+in APPPATH\Views\libros\listarEstudiantes.php on line 35.
+ 1 APPPATH\Views\libros\listarEstudiantes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: img', 'APPPATH\\Views\\libros\\listarEstudiantes.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listarEstudiantes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/listarEstudiantes', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(59): view('/libros/listarEstudiantes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->listarEstudiantes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:05:21 --> Invalid file: /estudiante/CrearEstudiante.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/estudiante/CrearEstudiante.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/estudiante/CrearEstudiante', [], true)
+ 3 APPPATH\Controllers\controladorEstudiantes.php(39): view('/estudiante/CrearEstudiante', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->CrearEstudiante()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:34:26 --> Call to undefined method CodeIgniter\Router\RouteCollection::z()
+in APPPATH\Config\Routes.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(789): require()
+ 2 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:34:30 --> Call to undefined method CodeIgniter\Router\RouteCollection::z()
+in APPPATH\Config\Routes.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(789): require()
+ 2 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:34:51 --> Call to undefined method CodeIgniter\Router\RouteCollection::z()
+in APPPATH\Config\Routes.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(789): require()
+ 2 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:35:10 --> Call to undefined method CodeIgniter\Router\RouteCollection::z()
+in APPPATH\Config\Routes.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(789): require()
+ 2 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:35:39 --> Undefined index: id
+in APPPATH\Views\libros\listarLibros.php on line 23.
+ 1 APPPATH\Views\libros\listarLibros.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\libros\\listarLibros.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(25): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:36:46 --> Undefined index: id
+in APPPATH\Views\libros\listarLibros.php on line 23.
+ 1 APPPATH\Views\libros\listarLibros.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\libros\\listarLibros.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\listarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(25): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 17:36:49 --> mysqli_sql_exception: Table 'biblioteca.estudiantes' doesn't exist in C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\biblioteca\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\biblioteca\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\biblioteca\app\Controllers\controladorEstudiantes.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+#8 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+#9 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-19 17:36:49 --> Table 'biblioteca.estudiantes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estudiantes`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estudiantes`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estudiantes`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estudiantes`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\controladorEstudiantes.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 17:37:03 --> mysqli_sql_exception: Table 'biblioteca.estudiantes' doesn't exist in C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\biblioteca\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\biblioteca\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\biblioteca\app\Controllers\controladorEstudiantes.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+#8 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+#9 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-19 17:37:03 --> Table 'biblioteca.estudiantes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estudiantes`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estudiantes`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estudiantes`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estudiantes`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\controladorEstudiantes.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 17:37:35 --> mysqli_sql_exception: Table 'biblioteca.estudiantes' doesn't exist in C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\biblioteca\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\biblioteca\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp2\htdocs\biblioteca\app\Controllers\controladorEstudiantes.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+#8 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+#9 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-19 17:37:35 --> Table 'biblioteca.estudiantes' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `estudiantes`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `estudiantes`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `estudiantes`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `estudiantes`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\controladorEstudiantes.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:38:14 --> Undefined index: id
+in APPPATH\Views\estudiante\VerEstudiante.php on line 23.
+ 1 APPPATH\Views\estudiante\VerEstudiante.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\estudiante\\VerEstudiante.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiante\\VerEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/estudiante/VerEstudiante', [], true)
+ 5 APPPATH\Controllers\controladorEstudiantes.php(32): view('/estudiante/VerEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:38:18 --> Undefined index: id
+in APPPATH\Views\estudiante\VerEstudiante.php on line 23.
+ 1 APPPATH\Views\estudiante\VerEstudiante.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\estudiante\\VerEstudiante.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiante\\VerEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/estudiante/VerEstudiante', [], true)
+ 5 APPPATH\Controllers\controladorEstudiantes.php(32): view('/estudiante/VerEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:38:26 --> Undefined index: id
+in APPPATH\Views\estudiante\VerEstudiante.php on line 23.
+ 1 APPPATH\Views\estudiante\VerEstudiante.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\estudiante\\VerEstudiante.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiante\\VerEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/estudiante/VerEstudiante', [], true)
+ 5 APPPATH\Controllers\controladorEstudiantes.php(32): view('/estudiante/VerEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:39:29 --> Undefined index: id
+in APPPATH\Views\estudiante\VerEstudiante.php on line 23.
+ 1 APPPATH\Views\estudiante\VerEstudiante.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\estudiante\\VerEstudiante.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiante\\VerEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/estudiante/VerEstudiante', [], true)
+ 5 APPPATH\Controllers\controladorEstudiantes.php(32): view('/estudiante/VerEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->VerEstudiante()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

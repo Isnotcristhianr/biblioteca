@@ -6,35 +6,36 @@ use CodeIgniter\Model;
 class ModeloEstudiantes extends Model{
     protected $table      = 'tblestudiantes';
     // Uncomment below if you want add primary key
-    // protected $primaryKey = 'id';
-    protected $primaryKey     = 'isEstudiante';
-    protected $allowedFields = ['nombre', 'cedula', 'edad', 'genero', 'img'];
+    protected $primaryKey = 'isEstudiante';
+    protected $allowedFields = ['nombre', 'cedula', 'edad', 'genero'];
 
-    public function listarEstudiantes(){
-        $estudiantes = $this->findAll();
-        return $estudiantes;
+  
+    public function insertar($datos){
+        $valor=$this->db->table("tblestudiantes");
+        $valor->insert($datos);
+
+        return $this->db->insertID();
     }
 
-    public function crearEstudiantes($datos){
-        $this->save($datos);
+    public function obtenerNombre($data){
+        $valor=$this->db->table('estudiantes');
+        $valor->where($data);
+
+        return $valor->get()->getResultArray();
     }
 
-    public function eliminarEstudiantes($id){
-        $this->where('isEstudiante', $id);
-        $this->delete();
+    public function actualizar($data, $id){
+        $valor=$this->db->table('estudiantes');
+        $valor->set($data);
+        $valor->where('id', $id);
+
+        return $valor->update();
     }
 
-    public function obtenerEstudiantes($id){
-        $this->where('isEstudiante', $id);
-        $estudiante = $this->first();
-        return $estudiante;
-    }
-
-    public function actualizarEstudiantes($datos, $id){
-        $this->where('isEstudiante', $id);
-        $this->set($datos);
-        $this->update();
+    public function eliminar($datos){
+        $valor=$this->db->table('estudiantes');
+        $valor->where($datos);
+        return $valor->delete();
     }
 }
-
-
+?>

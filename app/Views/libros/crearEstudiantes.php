@@ -10,7 +10,7 @@ echo $cabecera;
 <div class="d-inline-block border card border-primary p-4 m-5" id="contenedor">
                 <h3 class="text-center text-primary">Datos</h3>
                 <!-- Formulario -->
-                <form method="POST" action="<?= base_url('ControladorLibros/addEstudiante') ?>" enctype="multipart/form-data">
+                <form method="POST" action="<?= base_url('/ingresarEst') ?>" enctype="multipart/form-data">
                     <input type="text" name="metodo" value="1" hidden>
                     <div class="mb-3 ">
                         <label class="form-label">Nombre y Apellido</label>
@@ -46,10 +46,10 @@ echo $cabecera;
 
                     <!--subir png-->
 
-                    <div class="mb-3">
+                    <!-- <div class="mb-3">
                         <label for="formFile" class="form-label">Foto del Alumno</label>
                         <input class="form-control" type="file" name="foto" accept="image/png,image/jpeg" required>
-                    </div>
+                    </div> -->
 
 
                     <div class="d-grid gap-2 col-12 mx-auto">
