@@ -13,7 +13,7 @@ echo $cabecera;
                 <form method="POST" action="<?= base_url('/ingresarEst') ?>" enctype="multipart/form-data">
                     <input type="text" name="metodo" value="1" hidden>
                     <div class="mb-3 ">
-                        <label class="form-label">Nombre y Apellido</label>
+                        <label class="form-label">Nombro</label>
                         <input type="text" class="form-control" name="namefull" placeholder="ingrese el nombre"
                             required>
                     </div>

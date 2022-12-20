@@ -37,4 +37,3 @@ class ModeloLibros extends Model{
         return $valor->delete();
     }
 }
-?>

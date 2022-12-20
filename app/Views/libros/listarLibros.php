@@ -10,6 +10,8 @@ echo $cabecera;
                 <thead>
                     <th>Nombre</th>
                     <th>Autor</th>
+                    <th></th>
+                    <th></th>
                 </thead>
                 <tbody>
                     <?php
@@ -18,6 +20,8 @@ echo $cabecera;
                     <tr>
                         <td><?=$libro['titulo']?></td>
                         <td><?=$libro['autor']?></td>
+                        <td><a href="<?=base_url('/obtenerNombre/'.$libro['idLibro'])?>" class="btn btn-warning">🖊</a></td>
+                        <td><a href="<?=base_url('/eliminar/'.$libro['idLibro'])?>" class="btn btn-danger">🗑</a></td>
                     </tr>
                     <?php
                         endforeach;

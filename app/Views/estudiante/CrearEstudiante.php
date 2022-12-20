@@ -44,10 +44,10 @@ echo $cabecera;
                     </div>
 
                     <div class="d-grid gap-2 col-12 mx-auto">
-                        <a href="<?= base_url('/VerEstudiante'); ?>" class="btn  btn btn-primary mt-3 mb-2"
+                        <button class="btn  btn btn-primary mt-3 mb-2"
                             name="enviar">
                             Registrar nuevo Estudiante
-                        </a>
+                        </button>
                     </div>
 
                 </form>

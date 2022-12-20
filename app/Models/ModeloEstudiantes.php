@@ -18,22 +18,22 @@ class ModeloEstudiantes extends Model{
     }
 
     public function obtenerNombre($data){
-        $valor=$this->db->table('estudiantes');
+        $valor=$this->db->table('tblestudiantes');
         $valor->where($data);
 
         return $valor->get()->getResultArray();
     }
 
     public function actualizar($data, $id){
-        $valor=$this->db->table('estudiantes');
+        $valor=$this->db->table('tblestudiantes');
         $valor->set($data);
-        $valor->where('id', $id);
+        $valor->where('isEstudiante', $id);
 
         return $valor->update();
     }
 
     public function eliminar($datos){
-        $valor=$this->db->table('estudiantes');
+        $valor=$this->db->table('tblestudiantes');
         $valor->where($datos);
         return $valor->delete();
     }

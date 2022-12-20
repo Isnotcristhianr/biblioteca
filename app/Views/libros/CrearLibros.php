@@ -14,7 +14,7 @@ echo $cabecera;
 
                     </div>
                     <div class="user-box">
-                        <input type="text" name="editor" id="autor" required>
+                        <input type="text" name="autor" id="autor" required>
                         <label for="autorLibro">Autor del Libro:</label>
                     </div>
                     <button class="btn btn-warning">Ingresar</button>

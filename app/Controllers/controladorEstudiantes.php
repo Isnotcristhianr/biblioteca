@@ -8,94 +8,100 @@ use App\Models\ModeloEstudiantes;
 class ControladorEstudiantes extends Controller
 {
     //funcion que importa css y js
-    public function index(){
+    public function index()
+    {
         $this->load->helper('url');
         $this->load->view('test');
     }
 
-    public function CrearEstudiante(){
+    public function CrearEstudiante()
+    {
 
-        $datos['cabecera']=view('/templates/encabezado.php');
-        $datos['pie']=view('/templates/pie.php');
+        $datos['cabecera'] = view('/templates/encabezado.php');
+        $datos['pie'] = view('/templates/pie.php');
 
         return view('/estudiante/CrearEstudiante', $datos);
     }
 
-    public function VerEstudiante(){
-        $datos['cabecera']=view('/templates/encabezado.php');
-        $datos['pie']=view('/templates/pie.php');
+    public function VerEstudiante()
+    {
+        $datos['cabecera'] = view('/templates/encabezado.php');
+        $datos['pie'] = view('/templates/pie.php');
 
-        $objEst=new ModeloEstudiantes();
+        $objEst = new ModeloEstudiantes();
 
-        $datos['estudiantes']=$objEst->findAll();
+        $datos['estudiantes'] = $objEst->findAll();
 
         return view('/estudiante/VerEstudiante', $datos);
     }
     //FUNCION O METODO QUE PERMITE INGRESAR LOS VALORES
-    public function ingresarEst(){
-        $datos=[
-                    "nombre"=>$_POST['nombre'],
-                    "cedula"=>$_POST['cedula'],
-                    "edad"=>$_POST['edad'],
-                    "genero"=>$_POST['genero'],
+    public function ingresarEst()
+    {
+        $datos = [
+            "nombre" => $_POST['nombre'],
+            "cedula" => $_POST['cedula'],
+            "edad" => $_POST['edad'],
+            "genero" => $_POST['genero'],
         ];
-        $objEst=new ModeloEstudiantes();
+        $objEst = new ModeloEstudiantes();
         $respuesta = $objEst->insert($datos);
 
-        if($respuesta>0){
+        if ($respuesta > 0) {
             return redirect()->to(base_url('/VerEstudiante'));
-                
-        }else{
+        } else {
             return redirect()->to(base_url('/CrearEstudiante'));
         }
     }
     //FUNCION QUE PERMITE HACER UN SELECT DE ID PARA ACTUALIZAR
-    public function obtenerNombreEst($id){
-        $data=['id' => $id];
-        $objEst=new ModeloEstudiantes();
-        $respuesta =$objEst->obtenerNombre($data);
+    public function obtenerNombreEst($id)
+    {
+        $data = ['isEstudiante' => $id];
+        $objEst = new ModeloEstudiantes();
+        $respuesta = $objEst->obtenerNombre($data);
 
-        $datos=[
+        $datos = [
             "datos" => $respuesta
         ];
 
-        $datos['cabecera']=view('/templates/encabezado.php');
-        $datos['pie']=view('/templates/pie.php');
+        $datos['cabecera'] = view('/templates/encabezado.php');
+        $datos['pie'] = view('/templates/pie.php');
 
         return view('/estudiante/ActualizarEstudiante', $datos);
     }
     //FUNCION ACTUALIZAR
-    public function actualizarEst(){
-        $datos=[
-            "nombre"=>$_POST['nombre'],
-            "cedula"=>$_POST['cedula'],
-            "edad"=>$_POST['edad'],
-            "genero"=>$_POST['genero'],
+    public function actualizarEst()
+    {
+        $datos = [
+            "nombre" => $_POST['nombre'],
+            "cedula" => $_POST['cedula'],
+            "edad" => $_POST['edad'],
+            "genero" => $_POST['genero'],
         ];
         $id = $_POST['isEstudiante'];
         $objEst = new ModeloEstudiantes();
         $respuesta = $objEst->actualizar($datos, $id);
 
-        if($respuesta){
-            return redirect()->to(base_url('/VerEstudiante'));     
-        }else{
-            echo('<script>
+        if ($respuesta) {
+            return redirect()->to(base_url('/VerEstudiante'));
+        } else {
+            echo ('<script>
                 alert("Error, no se puedo actualizar");
             </script>');
         }
     }
     //FUNCION ELIMINAR
-    public function eliminarEst($id){
+    public function eliminarEst($id)
+    {
         $objEst = new ModeloEstudiantes();
-        $datos=[
-            "id" => $id
+        $datos = [
+            "isEstudiante" => $id
         ];
         $respuesta = $objEst->eliminar($datos);
 
-        if($respuesta){
-            return redirect()->to(base_url('/VerEstudiante'));     
-        }else{
-            echo('<script>
+        if ($respuesta) {
+            return redirect()->to(base_url('/VerEstudiante'));
+        } else {
+            echo ('<script>
                 alert("Error, no se puedo eliminar");
             </script>');
         }
