@@ -27,6 +27,22 @@ class ControladorRelaciones extends Controller{
         $datos['cabecera'] = view('templates/encabezado.php');
         $datos['pie'] = view('templates/pie.php');
 
+        //consumir api
+        $peticion = \Config\Services::curlrequest();
+        $datos['users']=json_decode(file_get_contents('https://jsonplaceholder.typicode.com/posts/'),true);
+        
+
+        return view('/libros/api', $datos);
+    }
+
+    //consumir api
+    public function consumirApi()
+    {
+        $url = "https://jsonplaceholder.typicode.com/posts/";
+        $json = file_get_contents($url);
+        $datos = json_decode($json, true);
+        $datos['cabecera'] = view('templates/encabezado.php');
+        $datos['pie'] = view('templates/pie.php');
         return view('/libros/api', $datos);
     }
 }
