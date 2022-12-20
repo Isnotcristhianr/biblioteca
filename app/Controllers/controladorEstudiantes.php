@@ -23,7 +23,7 @@ class ControladorEstudiantes extends Controller
         return view('/estudiante/CrearEstudiante', $datos);
     }
 
-    public function VerEstudiante()
+    public function listarEstudiante()
     {
         $datos['cabecera'] = view('/templates/encabezado.php');
         $datos['pie'] = view('/templates/pie.php');
@@ -32,7 +32,7 @@ class ControladorEstudiantes extends Controller
 
         $datos['estudiantes'] = $objEst->findAll();
 
-        return view('/estudiante/VerEstudiante', $datos);
+        return view('/estudiante/listarEstudiante', $datos);
     }
     //FUNCION O METODO QUE PERMITE INGRESAR LOS VALORES
     public function ingresarEst()

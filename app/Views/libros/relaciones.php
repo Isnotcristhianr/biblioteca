@@ -5,35 +5,29 @@ echo $cabecera;
 //print_r($libro);
 ?>
 
-<h1>Relaciones</h1>
 
 <!-- tabla relaciones entre alumno y libro -->
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Apellido</th>
-            <th scope="col">Libro</th>
-            <th scope="col">Fecha</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php
-        /* 
-        foreach ($relacion as $key => $value) {
-        ?>
+<div class="text-center table-responsive p-3 m-5">
+<h1 class="text-dark">Relaciones</h1>
+
+    <table class="table table-dark table-hover" id="tb">
+        <thead>
             <tr>
-                <th scope="row"><?php echo $value['id']; ?></th>
-                <td><?php echo $value['nombre']; ?></td>
-                <td><?php echo $value['apellido']; ?></td>
-                <td><?php echo $value['titulo']; ?></td>
-                <td><?php echo $value['fecha']; ?></td>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Libro</th>
+                <th scope="col">Fecha</th>
             </tr>
-        <?php
-        } */
-        ?>
-    </tbody>
+        </thead>
+        <tbody>
+            <?php
+
+            ?>
+        </tbody>
+    </table>
+</div>
+
 
 
 <?php

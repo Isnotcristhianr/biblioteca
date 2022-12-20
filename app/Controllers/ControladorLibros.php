@@ -12,6 +12,15 @@ class ControladorLibros extends Controller
         $this->load->helper('url');
         $this->load->view('test');
     }
+
+    public function inicio()
+    {
+        /* importar header */
+        $datos['cabecera'] = view('templates/encabezado.php');
+        $datos['pie'] = view('templates/pie.php');
+
+        return view('/libros/inicio', $datos);
+    }
     //FUNCION PARA VER LOS LIBROS
     public function ListarLibros(){
 

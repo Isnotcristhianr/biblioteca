@@ -36,6 +36,12 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+
+$routes->get('/inicio', 'ControladorLibros::inicio');
+
+$routes->get('/relaciones', 'controladorRelaciones::relaciones');
+
+
 $routes->get('/ListarLibros', 'ControladorLibros::ListarLibros');
 $routes->get('/CrearLibros', 'ControladorLibros::CrearLibros');
 $routes->post('/ingresar', 'ControladorLibros::ingresar');
@@ -43,7 +49,7 @@ $routes->get('/obtenerNombre/(:any)', 'ControladorLibros::obtenerNombre/$1');
 $routes->get('/eliminar/(:any)', 'ControladorLibros::eliminar/$1');
 $routes->post('/actualizar', 'ControladorLibros::actualizar');
 
-$routes->get('/VerEstudiante', 'ControladorEstudiantes::VerEstudiante');
+$routes->get('/listarEstudiante', 'ControladorEstudiantes::listarEstudiante');
 $routes->get('/CrearEstudiante', 'ControladorEstudiantes::CrearEstudiante');
 $routes->post('/ingresarEst', 'ControladorEstudiantes::ingresarEst');
 $routes->get('/obtenerNombreEst/(:any)', 'ControladorEstudiantes::obtenerNombreEst/$1');

@@ -5,8 +5,6 @@ echo $cabecera;
 //print_r($libro);
 ?>
 
-<h1>Registrar Estudiantes</h1>
-
 <div class="d-inline-block border card border-primary p-4 m-5" id="contenedor">
                 <h3 class="text-center text-primary">Datos</h3>
                 <!-- Formulario -->

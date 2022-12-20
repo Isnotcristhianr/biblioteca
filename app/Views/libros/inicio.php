@@ -31,43 +31,48 @@ echo $cabecera;
 </div>
 
 <!-- informacion  -->
-<div class="container m-5 p-5">
-    <div class="row">
-        <div class="col-sm">
-            <div class="card" style="width: 18rem;">
+<div class="container text-dark">
+    <div class="row p-5">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>Libros</h3>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title
-                    ">Libros</h5>
-                    <p class="card-text">Cantidad de libros: <?php echo $datos; ?></p>
-                    <a href="<?php echo base_url('/listarLibros'); ?>" class="btn btn-primary">Ver libros</a>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="<?= base_url('/ListarLibros') ?>" class="btn btn-primary">Ver</a>
                 </div>
             </div>
         </div>
-        <div class="col-sm">
-            <div class="card" style="width: 18rem;">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>Estudiantes</h3>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title
-                    ">Estudiantes</h5>
-                    <p class="card-text">Cantidad de estudiantes: <?php echo $estudiante; ?></p>
-                    <a href="<?php echo base_url('/listarEstudiantes'); ?>" class="btn btn-primary">Ver estudiantes</a>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="<?= base_url('/VerEstudiantes') ?>" class="btn btn-primary">Ver</a>
                 </div>
             </div>
         </div>
-        <div class="col-sm">
-            <div class="card" style="width: 18rem;">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>Relaciones</h3>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title
-                    ">Relaciones</h5>
-                    <p class="card-text">Cantidad de relaciones: <?php echo $relacion; ?></p>
-                    <a href="<?php echo base_url('/relaciones'); ?>" class="btn btn-primary">Ver relaciones</a>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="<?= base_url('/relaciones') ?>" class="btn btn-primary">Ver</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-
-
 
 
 <?php

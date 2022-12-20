@@ -3,10 +3,10 @@ echo $cabecera;
 ?>
 <section class="mb-5">
     <div class="text-center table-responsive p-3 m-5">
-        <div class="border card rounded p-4" style="background-color: rgb(58, 57, 54);">
-            <h2 class="mb-4 text-center text-warning">Todos los libros</h2>
+        <div class="rounded p-4">
+            <h2 class="mb-4 text-center text-dark">Libros</h2>
 
-            <table class="table table-warning table-hover">
+            <table class="table table-dark table-hover" id="tb">
                 <thead>
                     <th>Nombre</th>
                     <th>Autor</th>
@@ -34,3 +34,6 @@ echo $cabecera;
 
 </section>
 
+<?php
+echo $pie;
+?>
