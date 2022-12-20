@@ -2,10 +2,10 @@
 echo $cabecera;
 ?>
 <section>
-    <div class="text-center p-3 m-5" style="display: flex; align-items: center; justify-content: center;">
+    <div class="text-center p-5 m-5" style="display: flex; align-items: center; justify-content: center;">
         <div style="display: flex; align-items: center; justify-content: center;">
             <div class="forms-box mt-4">
-                <h2 class="mb-4 text-center text-dark">Registro Libros</h2>
+                <h2 class="mb-4 text-center text-ligth">Registro Libros</h2>
 
                 <form action="<?= base_url('/ingresar') ?>" method="POST">
                     <div class="user-box">

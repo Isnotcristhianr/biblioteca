@@ -5,7 +5,7 @@ echo $cabecera;
     <div class="text-center p-3 m-4" style="display: flex; align-items: center; justify-content: center;">
         <div style="display: flex; align-items: center; justify-content: center;">
             <div class="forms-box mt-1">
-                <h2 class="mb-4 text-center text-dark">Registro de Estudiantes</h2>
+                <h2 class="mb-4 text-center text-ligth">Registro de Estudiantes</h2>
 
                 <form action="<?= base_url('/ingresarEst')?>" method="POST" enctype="multipart/form-data">
 

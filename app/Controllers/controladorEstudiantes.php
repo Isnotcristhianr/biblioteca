@@ -34,7 +34,7 @@ class ControladorEstudiantes extends Controller
 
         return view('/estudiante/listarEstudiante', $datos);
     }
-    //FUNCION O METODO QUE PERMITE INGRESAR LOS VALORES
+    //insert
     public function ingresarEst()
     {
         $datos = [
@@ -52,7 +52,7 @@ class ControladorEstudiantes extends Controller
             return redirect()->to(base_url('/CrearEstudiante'));
         }
     }
-    //FUNCION QUE PERMITE HACER UN SELECT DE ID PARA ACTUALIZAR
+    //sacar id    
     public function obtenerNombreEst($id)
     {
         $data = ['isEstudiante' => $id];
@@ -68,7 +68,7 @@ class ControladorEstudiantes extends Controller
 
         return view('/estudiante/ActualizarEstudiante', $datos);
     }
-    //FUNCION ACTUALIZAR
+    //update
     public function actualizarEst()
     {
         $datos = [
@@ -89,7 +89,7 @@ class ControladorEstudiantes extends Controller
             </script>');
         }
     }
-    //FUNCION ELIMINAR
+    //delete
     public function eliminarEst($id)
     {
         $objEst = new ModeloEstudiantes();

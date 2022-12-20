@@ -4,7 +4,7 @@ echo $cabecera;
 <section class="mb-5">
     <div class="text-center table-responsive p-3 m-5">
         <div class="rounded p-4">
-            <h2 class="mb-4 text-center text-dark">Estudiantes</h2>
+            <h2 class="mb-4 text-center text-ligth">Estudiantes</h2>
             <table class="table table-dark table-hover" id="tb">
                 <thead>
                     <th>Nombre</th>

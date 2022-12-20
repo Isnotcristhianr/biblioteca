@@ -15,13 +15,11 @@ class ControladorLibros extends Controller
 
     public function inicio()
     {
-        /* importar header */
         $datos['cabecera'] = view('templates/encabezado.php');
         $datos['pie'] = view('templates/pie.php');
 
         return view('/libros/inicio', $datos);
     }
-    //FUNCION PARA VER LOS LIBROS
     public function ListarLibros(){
 
         $datos['cabecera']=view('/templates/encabezado.php');
@@ -33,7 +31,7 @@ class ControladorLibros extends Controller
 
         return view('/libros/ListarLibros', $datos);
     }
-    //FUNCION PARA DESTINAR LA PAGINA INGRESAR LIBROS
+    //ingresar
     public function CrearLibros(){
 
         $datos['cabecera']=view('/templates/encabezado.php');
@@ -41,7 +39,7 @@ class ControladorLibros extends Controller
 
         return view('/libros/CrearLibros', $datos);
     }
-    //FUNCION O METODO QUE PERMITE INGRESAR LOS VALORES
+    //insert
     public function ingresar(){
         $datos=[
                     "titulo"=>$_POST['titulo'],
@@ -57,7 +55,7 @@ class ControladorLibros extends Controller
             return redirect()->to(base_url('/CrearLibros'));
         }
     }
-    //FUNCION QUE PERMITE HACER UN SELECT DE ID PARA ACTUALIZAR
+    //sacar id
     public function obtenerNombre($id){
         $data=['idLibro' => $id];
         $objLibro=new ModeloLibros();
@@ -72,7 +70,7 @@ class ControladorLibros extends Controller
 
         return view('/libros/ActualizarLibros', $datos);
     }
-    //FUNCION ACTUALIZAR
+    //update
     public function actualizar(){
         $datos = [
             "titulo" => $_POST['titulo'],
@@ -90,7 +88,7 @@ class ControladorLibros extends Controller
             </script>');
         }
     }
-    //FUNCION ELIMINAR
+    //delete
     public function eliminar($id){
         $objLibro = new ModeloLibros();
         $datos=[

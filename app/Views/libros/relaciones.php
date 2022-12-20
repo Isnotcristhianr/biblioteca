@@ -8,7 +8,7 @@ echo $cabecera;
 
 <!-- tabla relaciones entre alumno y libro -->
 <div class="text-center table-responsive p-3 m-5">
-<h1 class="text-dark">Relaciones</h1>
+<h1 class="text-ligth">Relaciones</h1>
 
     <table class="table table-dark table-hover" id="tb">
         <thead>

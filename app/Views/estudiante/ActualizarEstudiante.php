@@ -14,7 +14,7 @@ echo $cabecera;
 <div class="text-center p-3 m-4" style="display: flex; align-items: center; justify-content: center;">
         <div style="display: flex; align-items: center; justify-content: center;">
             <div class="forms-box mt-1">
-                <h2 class="mb-4 text-center text-dark">Actualizar</h2>
+                <h2 class="mb-4 text-center text-ligth">Actualizar</h2>
 
                 <form action="<?= base_url('actualizarEst')?>" method="POST">
                 <input type="text" id="isEstudiante" name="isEstudiante" hidden value="<?php echo $id?>">
@@ -47,7 +47,7 @@ echo $cabecera;
                         </div>
                     </div>
                     <button class="btn btn-primary">Actualizar</button>
-                    <a href="<?= base_url('/VerEstudiante') ?>" class="btn btn-danger">Atras</a>
+                    <a href="<?= base_url('/listarEstudiante') ?>" class="btn btn-danger">Atras</a>
                 </form>
             </div>
             

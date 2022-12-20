@@ -16,7 +16,6 @@ class ControladorRelaciones extends Controller{
 
     public function relaciones()
     {
-        /* importar header */
         $datos['cabecera'] = view('templates/encabezado.php');
         $datos['pie'] = view('templates/pie.php');
 

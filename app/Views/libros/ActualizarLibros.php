@@ -12,7 +12,7 @@ echo $cabecera;
     <div class="text-center p-3 m-5" style="display: flex; align-items: center; justify-content: center;">
         <div style="display: flex; align-items: center; justify-content: center;">
             <div class="forms-box mb-4 mt-5">
-                <h2 class="mb-4 text-center text-dark">Actualizar Libro</h2>
+                <h2 class="mb-4 text-center text-ligth">Actualizar Libro</h2>
                 <form action="<?= base_url('actualizar')?>" method="POST">
                 <input type="text" id="idLibro" name="idLibro" hidden value="<?php echo $id?>">
                     <div class="user-box">
