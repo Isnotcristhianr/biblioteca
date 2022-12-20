@@ -15,15 +15,15 @@ echo $cabecera;
             <tr>
                 <th scope="col">Id</th>
                 <th scope="col">Nombre</th>
-                <th scope="col">Apellido</th>
+                <th scope="col">Cedula</th>
                 <th scope="col">Libro</th>
-                <th scope="col">Fecha</th>
+                <th scope="col">Autor</th>
             </tr>
         </thead>
         <tbody>
             <?php
-
-            ?>
+            //relacionar 2 tablas
+           ?>
         </tbody>
     </table>
 </div>

@@ -33,7 +33,7 @@ echo $cabecera;
                     <div class="mb-3" style="text-align: left;">
                         <label for="Sexo">Genero:</label>
                         <div>
-                            <input type="radio" class="form-check-input mt-0" name="genero" value="<?php echo $genero?>" checked>
+                            <input type="radio" class="form-check-input mt-0" name="genero" value="<?php echo $genero?>">
                             <label for="sexo">
                                 Masculino
                             </label>

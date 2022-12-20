@@ -47,7 +47,7 @@ class ControladorEstudiantes extends Controller
         $respuesta = $objEst->insert($datos);
 
         if ($respuesta > 0) {
-            return redirect()->to(base_url('/VerEstudiante'));
+            return redirect()->to(base_url('/listarEstudiante'));
         } else {
             return redirect()->to(base_url('/CrearEstudiante'));
         }
@@ -82,7 +82,7 @@ class ControladorEstudiantes extends Controller
         $respuesta = $objEst->actualizar($datos, $id);
 
         if ($respuesta) {
-            return redirect()->to(base_url('/VerEstudiante'));
+            return redirect()->to(base_url('/listarEstudiante'));
         } else {
             echo ('<script>
                 alert("Error, no se puedo actualizar");
@@ -99,7 +99,7 @@ class ControladorEstudiantes extends Controller
         $respuesta = $objEst->eliminar($datos);
 
         if ($respuesta) {
-            return redirect()->to(base_url('/VerEstudiante'));
+            return redirect()->to(base_url('/listarEstudiante'));
         } else {
             echo ('<script>
                 alert("Error, no se puedo eliminar");
