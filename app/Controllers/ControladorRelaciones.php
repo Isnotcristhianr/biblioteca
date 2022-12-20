@@ -35,6 +35,14 @@ class ControladorRelaciones extends Controller{
         return view('/libros/api', $datos);
     }
 
+    public function usuarios()
+    {
+        $datos['cabecera'] = view('templates/encabezado.php');
+        $datos['pie'] = view('templates/pie.php');
+
+        return view('/libros/usuarios', $datos);
+    }
+
     //consumir api
     public function consumirApi()
     {
