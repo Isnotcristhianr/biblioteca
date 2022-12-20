@@ -23,8 +23,8 @@ echo $cabecera;
                         <td><?=$estudiante['cedula']?></td>
                         <td><?=$estudiante['edad']?></td>
                         <td><?=$estudiante['genero']?></td>
-                        <td><a href="<?=base_url()?>/obtenerNombreEst/<?=$estudiante['isEstudiante']?>" class="btn btn-warning">Actualizar</a></td>
-                        <td><a href="<?=base_url()?>/eliminarEst/<?=$estudiante['isEstudiante']?>" class="btn btn-danger">Eliminar</a></td>
+                        <td><a href="<?=base_url()?>/obtenerNombreEst/<?=$estudiante['isEstudiante']?>" class="btn btn-warning">🖊</a></td>
+                        <td><a href="<?=base_url()?>/eliminarEst/<?=$estudiante['isEstudiante']?>" class="btn btn-danger">🗑</a></td>
                     </tr>
                     <?php
                         endforeach;
