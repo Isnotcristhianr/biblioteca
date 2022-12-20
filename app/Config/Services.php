@@ -29,4 +29,35 @@ class Services extends BaseService
      *     return new \CodeIgniter\Example();
      * }
      */
+
+     //validar usuarios y contraseña api
+     /*    public static function validarUsuario($getShared = true)
+        {
+            if ($getShared) {
+                return static::getSharedInstance('validarUsuario');
+            }
+    
+            return new \App\Controllers\ControladorSesiones();
+        }
+
+        //consumir api
+        public static function curlrequest($getShared = true)
+        {
+            if ($getShared) {
+                return static::getSharedInstance('curlrequest');
+            }
+    
+            return new \CodeIgniter\HTTP\CURLRequest("https://proyectomontesdeoca.000webhostapp.com/webs/API_LOGIN/servicios/api.php");
+        }
+
+        //leer rol
+        public static function leerRol($getShared = true)
+        {
+            if ($getShared) {
+                return static::getSharedInstance('leerRol');
+            }
+    
+            return new \App\Controllers\ControladorSesiones();
+        } */
+
 }

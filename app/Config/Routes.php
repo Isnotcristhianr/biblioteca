@@ -37,14 +37,26 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+//home
 $routes->get('/inicio', 'ControladorLibros::inicio');
 
 $routes->get('/relaciones', 'controladorRelaciones::relaciones');
 //api
-$routes->get('/api', 'controladorRelaciones::api');
-$routes->get('/usuarios', 'controladorRelaciones::usuarios');
+$routes->get('/api', 'controladorSesiones::api');
 
 
+//sesion
+$routes->get('/usuarios', 'controladorSesiones::usuarios');
+$routes->get('/login', 'controladorSesiones::sesion');
+$routes->post('/iniciarSesion', 'controladorSesiones::iniciarSesion');
+$routes->get('/cerrarSesion', 'controladorSesiones::cerrarSesion');
+$routes->post('/validarUsuario', 'controladorSesiones::validarUsuario');
+$routes->post('/validarUsuario2', 'controladorSesiones::validarUsuario2');
+
+
+
+
+//libros
 $routes->get('/ListarLibros', 'ControladorLibros::ListarLibros');
 $routes->get('/CrearLibros', 'ControladorLibros::CrearLibros');
 $routes->post('/ingresar', 'ControladorLibros::ingresar');
@@ -52,6 +64,7 @@ $routes->get('/obtenerNombre/(:any)', 'ControladorLibros::obtenerNombre/$1');
 $routes->get('/eliminar/(:any)', 'ControladorLibros::eliminar/$1');
 $routes->post('/actualizar', 'ControladorLibros::actualizar');
 
+//estudiantes
 $routes->get('/listarEstudiante', 'ControladorEstudiantes::listarEstudiante');
 $routes->get('/CrearEstudiante', 'ControladorEstudiantes::CrearEstudiante');
 $routes->post('/ingresarEst', 'ControladorEstudiantes::ingresarEst');

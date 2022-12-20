@@ -31,6 +31,7 @@ echo $cabecera;
         </div>
     </div>
 </section>
+
 <?php
 echo $pie;
 ?>
