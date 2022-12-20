@@ -21,4 +21,12 @@ class ControladorRelaciones extends Controller{
 
         return view('/libros/relaciones', $datos);
     }
+
+    public function api()
+    {
+        $datos['cabecera'] = view('templates/encabezado.php');
+        $datos['pie'] = view('templates/pie.php');
+
+        return view('/libros/api', $datos);
+    }
 }

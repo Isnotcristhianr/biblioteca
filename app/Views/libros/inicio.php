@@ -32,8 +32,21 @@ echo $cabecera;
 
 <!-- informacion  -->
 <div class="container text-dark">
-    <div class="row p-5">
-        <div class="col-md-4">
+    <div class="row p-2">
+        <div class="col-md-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>Api</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="<?= base_url('/api') ?>" class="btn btn-primary">Ver</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-header">
                     <h3>Libros</h3>
@@ -46,7 +59,7 @@ echo $cabecera;
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-header">
                     <h3>Estudiantes</h3>
@@ -59,7 +72,7 @@ echo $cabecera;
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-header">
                     <h3>Relaciones</h3>

@@ -298,3 +298,10 @@ in APPPATH\Views\libros\relaciones.php on line 26.
  7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorRelaciones))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:06:34 --> Undefined index: genero
+in APPPATH\Controllers\controladorEstudiantes.php on line 78.
+ 1 APPPATH\Controllers\controladorEstudiantes.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genero', 'APPPATH\\Controllers\\controladorEstudiantes.php', 78, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->actualizarEst()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
