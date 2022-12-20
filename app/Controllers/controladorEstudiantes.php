@@ -72,7 +72,7 @@ class ControladorEstudiantes extends Controller
             "edad"=>$_POST['edad'],
             "genero"=>$_POST['genero'],
         ];
-        $id = $_POST['id'];
+        $id = $_POST['isEstudiante'];
         $objEst = new ModeloEstudiantes();
         $respuesta = $objEst->actualizar($datos, $id);
 
@@ -101,5 +101,3 @@ class ControladorEstudiantes extends Controller
         }
     }
 }
-
-?>

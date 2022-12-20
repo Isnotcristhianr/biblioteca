@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 class ModeloLibros extends Model{
     protected $table      = 'libros';
     // Uncomment below if you want add primary key
-    protected $primaryKey = 'id';
-    protected $allowedFields = ['codigo', 'titulo', 'editor'];
+    protected $primaryKey = 'idLibro';
+    protected $allowedFields = ['titulo', 'autor'];
 
     public function insertar($datos){
         $valor=$this->db->table("libros");
@@ -26,7 +26,7 @@ class ModeloLibros extends Model{
     public function actualizar($data, $id){
         $valor=$this->db->table('libros');
         $valor->set($data);
-        $valor->where('id', $id);
+        $valor->where('idLibro', $id);
 
         return $valor->update();
     }

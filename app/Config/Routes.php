@@ -50,6 +50,7 @@ $routes->get('/obtenerNombreEst/(:any)', 'ControladorEstudiantes::obtenerNombreE
 $routes->get('/eliminarEst/(:any)', 'ControladorEstudiantes::eliminarEst/$1');
 $routes->post('/actualizarEst', 'ControladorEstudiantes::actualizarEst');
 
+
 $route['profiler']="Profiler_controller";
 $route['profiler/disable']="Profiler_controller/disable";
 /*

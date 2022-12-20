@@ -53,7 +53,7 @@ echo $cabecera;
 
 
                     <div class="d-grid gap-2 col-12 mx-auto">
-                        <a href="<?= base_url('/listarEstudiantes'); ?>" class="btn  btn btn-primary mt-3 mb-2" name="enviar">
+                        <a href="<?= base_url('/VerEstudiante'); ?>" class="btn  btn btn-primary mt-3 mb-2" name="enviar">
                             Registrar nuevo Estudiante
                         </a>
                     </div>

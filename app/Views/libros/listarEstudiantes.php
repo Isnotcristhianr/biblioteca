@@ -15,9 +15,8 @@ echo $cabecera;
             <table class="table responsive" id="tb">
                 <thead>
                     <tr>
-                        <th id="id">ID</th>
-                        <th id="cedula">Cedula</th>
-                        <th id="nombre">Nombre</th>
+                        <th id="cedula">Nombre</th>
+                        <th id="nombre">Cedula</th>
                         <th id="edad">Edad</th>
                         <th id="genero">Genero</th>
                         <th></th>
