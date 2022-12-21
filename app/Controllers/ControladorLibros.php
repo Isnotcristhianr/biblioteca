@@ -20,6 +20,19 @@ class ControladorLibros extends Controller
 
         return view('/libros/inicio', $datos);
     }
+
+    public function inicioSecre()
+    {
+        $datos['cabecera'] = view('templates/encabezado2.php');
+        $datos['pie'] = view('templates/pie.php');
+
+        $objLibro=new ModeloLibros();
+
+        $datos['libros']=$objLibro->findAll();
+
+        return view('/libros/inicioSecre', $datos);
+    }
+
     public function ListarLibros(){
 
         $datos['cabecera']=view('/templates/encabezado.php');

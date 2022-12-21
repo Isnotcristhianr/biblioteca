@@ -39,6 +39,7 @@ $routes->get('/', 'Home::index');
 
 //home
 $routes->get('/inicio', 'ControladorLibros::inicio');
+$routes->get('/inicioSecre', 'ControladorLibros::inicioSecre');
 
 $routes->get('/relaciones', 'controladorRelaciones::relaciones');
 //api

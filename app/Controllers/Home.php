@@ -38,7 +38,11 @@ class Home extends BaseController
             $sesion = session();
             $sesion->set($data);
 
-            return redirect()->to(base_url() . '/inicio');
+            if($datosUsuario[0]['rol']=='administrador'){
+                return redirect()->to(base_url() . '/inicio');
+            }else if($datosUsuario[0]['rol']=='secretaria'){
+                return redirect()->to(base_url() . '/inicioSecre');
+            }
         } else {
 
             return redirect()->to(base_url() . '/login');

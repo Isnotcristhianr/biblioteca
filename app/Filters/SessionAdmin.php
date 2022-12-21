@@ -20,7 +20,7 @@ class SessionAdmin implements FilterInterface
             if ($rol == 'administrador') {
                 return base_url('/inicio');
             }else if  ($rol == 'secretaria') {
-                return base_url('/inicio');
+                return base_url('/inicioSecre');
             }else{
                 return redirect()->to(base_url() . '/login');
             }
