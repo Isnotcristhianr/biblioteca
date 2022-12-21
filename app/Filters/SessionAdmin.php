@@ -17,7 +17,11 @@ class SessionAdmin implements FilterInterface
             $session = session();
             $rol = $session->get('rol');
 
-            if (session()->islogged) {
+            if ($rol == 'administrador') {
+                return base_url('/inicio');
+            }else if  ($rol == 'secretaria') {
+                return base_url('/inicio');
+            }else{
                 return redirect()->to(base_url() . '/login');
             }
 

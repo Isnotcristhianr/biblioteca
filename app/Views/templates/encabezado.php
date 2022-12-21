@@ -64,6 +64,11 @@
                     echo base_url('/api');
                     ?>
                     ">Api</a>
+                    <a class="nav-link" href="
+                    <?php
+                    echo base_url('/apiUsuarios');
+                    ?>
+                    ">Api Usuarios</a>
             </div>
             <!--navegador busqueda -->
            <!--  <form class="d-flex" role="search">

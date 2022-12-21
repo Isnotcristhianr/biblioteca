@@ -75,15 +75,35 @@ class Filters extends BaseConfig
 
         'SessionAdmin' => [
             'before' => [
-                '/inicio', '/listarEstudiante', '/CrearEstudiante',
-                '/ingresarEst'
+                '/inicio',
+                '/listarEstudiante',
+                '/CrearEstudiante',
+                '/ingresarEst',
+                '/ListarLibros',
+                '/CrearLibros',
+                '/ingresar',
+                '/obtenerNombre/(:any)',
+                '/eliminar/(:any)',
+                '/actualizar',
+                '/obtenerNombreEst/(:any)',
+                '/eliminarEst/(:any)',
+                '/actualizarEst'
             ]
-            ],
+        ],
         'SessionSecre' => [
             'before' => [
-                '/inicio', '/listarEstudiante',  
+                '/inicio',
+                '/listarEstudiante',
+                '/ListarLibros',
+                '/CrearLibros',
+                '/obtenerNombre/(:any)',
+                '/eliminar/(:any)',
+                '/actualizar',
+                '/obtenerNombreEst/(:any)',
+                '/eliminarEst/(:any)',
+                '/actualizarEst'
             ]
-            ]
+        ]
 
 
     ];

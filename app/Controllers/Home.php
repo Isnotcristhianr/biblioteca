@@ -31,11 +31,8 @@ class Home extends BaseController
         if (count($datosUsuario) > 0) {
 
             $data = [
-
                 'user' => $datosUsuario[0]['user'],
-                'rol' => $datosUsuario[0]['rol'],
-                                
-
+                'rol' => $datosUsuario[0]['rol'],                
             ];
 
             $sesion = session();

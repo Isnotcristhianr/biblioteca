@@ -16,8 +16,7 @@ class SessionSecre implements FilterInterface
 
         if ($rol != 'secretaria') {
             return redirect()->to(base_url() . '/login');
-        } */
-      
+        } */     
       
 
     }

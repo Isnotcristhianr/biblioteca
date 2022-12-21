@@ -36,6 +36,19 @@ class ControladorSesiones extends Controller{
         return view('/libros/api', $datos);
     }
 
+    public function apiUsuarios()
+    {
+        $datos['cabecera'] = view('templates/encabezado.php');
+        $datos['pie'] = view('templates/pie.php');
+
+        //consumir api
+        $peticion = \Config\Services::curlrequest();
+        $datos['users']=json_decode(file_get_contents('https://proyectomontesdeoca.000webhostapp.com/webs/API_LOGIN/servicios/api.php'),true);
+        
+
+        return view('/libros/apiUsuarios', $datos);
+    }
+
     //sesiones consumiendo api
     public function validarUsuario()
     {

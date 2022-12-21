@@ -958,3 +958,25 @@ in APPPATH\Controllers\Home.php on line 31.
  4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 23:47:37 --> Undefined index: id
+in APPPATH\Views\libros\apiUsuarios.php on line 20.
+ 1 APPPATH\Views\libros\apiUsuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\libros\\apiUsuarios.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\apiUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/apiUsuarios', [], true)
+ 5 APPPATH\Controllers\ControladorSesiones.php(49): view('/libros/apiUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->apiUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 23:49:26 --> Undefined index: id
+in APPPATH\Views\libros\apiUsuarios.php on line 20.
+ 1 APPPATH\Views\libros\apiUsuarios.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Views\\libros\\apiUsuarios.php', 20, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\apiUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/apiUsuarios', [], true)
+ 5 APPPATH\Controllers\ControladorSesiones.php(49): view('/libros/apiUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->apiUsuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -43,6 +43,8 @@ $routes->get('/inicio', 'ControladorLibros::inicio');
 $routes->get('/relaciones', 'controladorRelaciones::relaciones');
 //api
 $routes->get('/api', 'controladorSesiones::api');
+//api usuarios
+$routes->get('/apiUsuarios', 'controladorSesiones::apiUsuarios');
 
 
 //sesion
