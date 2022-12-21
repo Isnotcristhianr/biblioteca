@@ -48,6 +48,7 @@ class ModeloLogin extends Model
         $datos = json_decode($json, true);
         return $datos;
     }
+    
     public function obtenerUsuario($data)
     {
         $db = \Config\Database::connect();
