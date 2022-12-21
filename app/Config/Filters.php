@@ -73,15 +73,17 @@ class Filters extends BaseConfig
     public $filters = [
 
         'SessionAdmin' => [
-            'before' => ['/inicio', '/listarEstudiante', '/CrearEstudiante',
-            '/ingresarEst']],
+            'before' => [
+                '/inicio', '/listarEstudiante', '/CrearEstudiante',
+                '/ingresarEst'
+            ]
+        ],
         'SessionSecre' => [
-            'before' => ['/inicio', '/listarEstudiante', '/CrearEstudiante',
-            '/ingresarEst']
+            'after' => [
+                '/inicio', '/listarEstudiante', '/CrearEstudiante',
+                '/ingresarEst'
+            ]
+
         ]
-        
     ];
-        
-    
 }
-        

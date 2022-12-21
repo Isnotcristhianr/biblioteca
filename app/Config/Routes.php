@@ -53,9 +53,6 @@ $routes->get('/cerrarSesion', 'controladorSesiones::cerrarSesion');
 $routes->post('/validarUsuario', 'controladorSesiones::validarUsuario');
 $routes->post('/login2', 'Home::login2');
 
-
-
-
 //libros
 $routes->get('/ListarLibros', 'ControladorLibros::ListarLibros');
 $routes->get('/CrearLibros', 'ControladorLibros::CrearLibros');
