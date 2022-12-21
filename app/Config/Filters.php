@@ -8,6 +8,7 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use Predis\Command\Redis\EXPIRE;
 
 class Filters extends BaseConfig
 {
@@ -77,13 +78,13 @@ class Filters extends BaseConfig
                 '/inicio', '/listarEstudiante', '/CrearEstudiante',
                 '/ingresarEst'
             ]
-        ],
+            ],
         'SessionSecre' => [
-            'after' => [
-                '/inicio', '/listarEstudiante', '/CrearEstudiante',
-                '/ingresarEst'
+            'before' => [
+                '/inicio', '/listarEstudiante',  
+            ]
             ]
 
-        ]
+
     ];
 }

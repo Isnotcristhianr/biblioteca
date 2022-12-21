@@ -34,6 +34,7 @@ class Home extends BaseController
 
                 'user' => $datosUsuario[0]['user'],
                 'rol' => $datosUsuario[0]['rol'],
+                                
 
             ];
 

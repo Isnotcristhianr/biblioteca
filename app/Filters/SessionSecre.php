@@ -11,12 +11,12 @@ class SessionSecre implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
 
-        $session = session();
+      /*   $session = session();
         $rol = $session->get('rol');
 
         if ($rol != 'secretaria') {
             return redirect()->to(base_url() . '/login');
-        }
+        } */
       
       
 
