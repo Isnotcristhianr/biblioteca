@@ -39,7 +39,7 @@
             OR
         </div>
         <!-- Sesion -->
-        <form action="<?= base_url('validarUsuario2')?>" method="POST">
+        <form action="<?= base_url('/login2')?>" method="POST">
             <div class="id">
                 <div class="ename">
                     <input type="text" placeholder="Usuario" name="user"/>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="txt">
-                    <p>No tienes una cuenta? <a href="#">Resgitrate</a></p>
+                    <p>¿No tienes una cuenta? <a href="#">Registrate</a></p>
                 </div>
             </div>
         </form>

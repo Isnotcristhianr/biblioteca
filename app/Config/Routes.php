@@ -51,7 +51,7 @@ $routes->get('/login', 'controladorSesiones::sesion');
 $routes->post('/iniciarSesion', 'controladorSesiones::iniciarSesion');
 $routes->get('/cerrarSesion', 'controladorSesiones::cerrarSesion');
 $routes->post('/validarUsuario', 'controladorSesiones::validarUsuario');
-$routes->post('/validarUsuario2', 'controladorSesiones::validarUsuario2');
+$routes->post('/login2', 'Home::login2');
 
 
 

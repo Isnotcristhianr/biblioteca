@@ -66,9 +66,26 @@
                     ">Api</a>
             </div>
             <!--navegador busqueda -->
-            <form class="d-flex" role="search">
+           <!--  <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> -->
+
+            <!-- bienvenida user -->
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="
+                    <?php
+                    echo base_url('/inicio');
+                    ?>
+                    ">Bienvenido: <?php echo session('user'); ?>, Rol: <?php echo session('rol'); ?></a>
+            </div>
+
+            <!-- cerrar sesion -->
+            <a class="nav-link bg-danger p-2" href="
+                    <?php
+                    echo base_url('/cerrarSesion');
+                    ?>
+                    ">👋</a>
+                    
         </div>
     </nav>

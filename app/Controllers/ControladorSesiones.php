@@ -2,6 +2,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
+use App\Models\ModeloLogin;
 
 class ControladorSesiones extends Controller{
 
@@ -62,32 +63,12 @@ class ControladorSesiones extends Controller{
         }
     }
 
-    //validar sesion con api y modelos
-    public function validarUsuario2()
-    {
-        $sesion = session();
-        //recibir user y pass
-        $user = $this->request->$_POST('user');
-        $pass = $this->request->$_POST('pass');
-
-        $modelo = new \App\Models\ModeloLogin();
-
-        $respuesta = $modelo->validarUsuarioApi2($user, $pass);
-
-        if($respuesta){
-            $sesion->set('usuario', $respuesta);
-            return redirect()->to(base_url().'/inicio');
-        }else{
-            $sesion->setFlashdata('error', 'Usuario o contraseña incorrectos');
-            return redirect()->to(base_url().'/login');
-        }
-    }
-
+    
     public function cerrarSesion()
     {
         $sesion = session();
         $sesion->destroy();
 
-        return redirect()->to(base_url().'/iniciarSesion');
+        return redirect()->to(base_url().'/login');
     }
 }

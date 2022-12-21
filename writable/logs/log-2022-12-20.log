@@ -495,3 +495,166 @@ in APPPATH\Controllers\ControladorSesiones.php on line 70.
  2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
  3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 16:51:30 --> Method name must be a string
+in APPPATH\Controllers\ControladorSesiones.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->validarUsuario2()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:47:17 --> Method name must be a string
+in APPPATH\Controllers\ControladorSesiones.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->validarUsuario2()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:53:15 --> Method name must be a string
+in APPPATH\Controllers\ControladorSesiones.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->validarUsuario2()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:53:43 --> Method name must be a string
+in APPPATH\Controllers\ControladorSesiones.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->validarUsuario2()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:54:31 --> Method name must be a string
+in APPPATH\Controllers\ControladorSesiones.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->validarUsuario2()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:54:36 --> Method name must be a string
+in APPPATH\Controllers\ControladorSesiones.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorSesiones->validarUsuario2()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorSesiones))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 18:32:37 --> Function name must be a string
+in APPPATH\Controllers\Home.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 18:32:57 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 18:46:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Home.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:37:31 --> Call to a member function where() on array
+in APPPATH\Models\ModeloLogin.php on line 32.
+ 1 APPPATH\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:38:46 --> Call to a member function where() on array
+in APPPATH\Models\ModeloLogin.php on line 32.
+ 1 APPPATH\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:39:24 --> Call to a member function get() on array
+in APPPATH\Models\ModeloLogin.php on line 35.
+ 1 APPPATH\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:43:25 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:44:07 --> Undefined index: user
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:44:18 --> Undefined index: user
+in APPPATH\Controllers\Home.php on line 34.
+ 1 APPPATH\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user', 'APPPATH\\Controllers\\Home.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:56:21 --> Array to string conversion
+in APPPATH\Models\ModeloLogin.php on line 16.
+ 1 APPPATH\Models\ModeloLogin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\ModeloLogin.php', 16, [...])
+ 2 APPPATH\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-20 21:02:27 --> mysqli_sql_exception: Unknown column '$user' in 'where clause' in C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\biblioteca\app\Models\ModeloLogin.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\biblioteca\app\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario(Array, Array)
+#6 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\Home->login2()
+#7 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-20 21:02:27 --> Unknown column '$user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbllogin`
+WHERE `user` = $user AND `pass` = $pass', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbllogin`
+WHERE `user` = $user AND `pass` = $pass')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbllogin`
+WHERE `user` = $user AND `pass` = $pass')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbllogin`
+WHERE `user` = $user AND `pass` = $pass', [], false)
+ 5 APPPATH\Models\ModeloLogin.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario([...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 21:06:12 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 21:06:41 --> Too few arguments to function App\Models\ModeloLogin::obtenerUsuario(), 1 passed in C:\xampp2\htdocs\biblioteca\app\Controllers\Home.php on line 28 and exactly 2 expected
+in APPPATH\Models\ModeloLogin.php on line 13.
+ 1 APPPATH\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario(true)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 21:19:29 --> Class 'App\Filters\SessionAdmin' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('inicio', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 21:19:39 --> Class 'App\Filters\SessionAdmin' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('inicio', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
