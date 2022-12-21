@@ -23,7 +23,8 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-        'SessionAdmin'  => \App\Filters\SessionAdmin::class
+        'SessionAdmin'  => \App\Filters\SessionAdmin::class,
+        'SessionSecre'  => \App\Filters\SessionSecre::class
     ];
 
     /**
@@ -72,11 +73,15 @@ class Filters extends BaseConfig
     public $filters = [
 
         'SessionAdmin' => [
-            'before' => ['/inicio', '/listarEstudiante', '/listar']],
-        
-            
+            'before' => ['/inicio', '/listarEstudiante', '/CrearEstudiante',
+            '/ingresarEst']],
         'SessionSecre' => [
-            'before' => ['/inicio', '/listarEstudiante', '/listar']]
-        ];
+            'before' => ['/inicio', '/listarEstudiante', '/CrearEstudiante',
+            '/ingresarEst']
+        ]
+        
+    ];
+        
+    
 }
         

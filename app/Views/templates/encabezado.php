@@ -77,7 +77,9 @@
                     <?php
                     echo base_url('/inicio');
                     ?>
-                    ">Bienvenido: <?php echo session('user'); ?>, Rol: <?php echo session('rol'); ?></a>
+                    ">Bienvenid@: <?php echo session('user'); ?>,
+                     Rol: <?php echo session('rol'); ?>,
+                    Ingreso: <?php echo date('l h:i') ?> </a>
             </div>
 
             <!-- cerrar sesion -->
