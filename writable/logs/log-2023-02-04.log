@@ -1,0 +1,33 @@
+ERROR - 2023-02-04 07:29:02 --> mysqli_sql_exception: Table 'pacientesexamen.tbllogin' doesn't exist in C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp2\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\biblioteca\app\Models\ModeloLogin.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\biblioteca\app\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario(Array)
+#6 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\Home->login2()
+#7 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp2\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp2\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-04 07:29:02 --> Table 'pacientesexamen.tbllogin' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbllogin`
+WHERE `user` = \'admin\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbllogin`
+WHERE `user` = \'admin\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbllogin`
+WHERE `user` = \'admin\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbllogin`
+WHERE `user` = :user:', [...], false)
+ 5 APPPATH\Models\ModeloLogin.php(58): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(28): App\Models\ModeloLogin->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login2()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
